@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100% ;
+}
+#main{
+  overflow-x: hidden;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.3vw 3.8vw 2vw 3.8vw;
+  align-items: center;
+  border-bottom: 1px solid rgba(187, 187, 187, 0.288);
+  
+}
+.center {
+  display: flex;
+  gap: 1.8vw;
+  justify-content: center;
+  align-items: center;
+}
+.center a {
+  text-decoration: none;
+  color: #91a3b1;
+  transition: 0.1s all ease-in;
+  height: 20px;
+  font-size: 1.3vw;
+}
+.center a:hover {
+  color: #4ca3ff;
+}
+.button {
+  display: flex;
+  gap: 1.8vw;
+}
+.btn {
+  height: 3.5em;
+  width: 8em;
+  border: none;
+  border-radius: 10em;
+  background: #016dd9;
+  font-size: 17px;
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 500;
+  cursor: pointer;
+}
+.hover {
+  height: 3.5em;
+  width: 8.9em;
+  border-radius: 10em;
+  background: #fff;
+  font-size: 17px;
+  color: #91a3b1;
+  font-family: inherit;
+  font-weight: 500;
+  cursor: pointer;
+  border: 1px solid #016dd9;
+  transition: 0.4s all ease-in;
+}
+.hover:hover {
+  background: #016dd9;
+  color: #ffffff;
+}
+.container {
+  margin-top: 3vw;
+  height: 55vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.bar {
+  margin: 0 2vw 0 4vw;
+}
+.top {
+  font-size: 2vw;
+  color: #4ca3ff;
+}
+.btom {
+  font-size: 1.5vw;
+  width: 90%;
+}
+.font-img {
+  width: 835px;
+  margin-left: 2vw;
+}
+.sec-container {
+  position: relative;
+  overflow-x: hidden;
+}
+
+.sec-container img {
+  width: 96%;
+  margin: 0 1.9vw;
+  position: relative;
+  z-index: 10;
+}
+
+.sec-container p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 11;
+  width: 100%;
+  text-align: center;
+  font-size: 3.9vw;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+.sec-btn {
+  height: 2.5em;
+  width: 8.5em;
+  border: none;
+  border-radius: 10em;
+  background: #016dd9;
+  font-size: 17px;
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 500;
+  cursor: pointer;
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 11;
+}
+.centerr {
+  height: 40vh;
+  width: 100%;
+}
+.centerr p {
+  width: 44%;
+  font-size: 2.8vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 5vw;
+}
+.cards {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1.5vw;
+}
+.left {
+  height: 60vh;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+  gap: 10px;
+}
+.card1 {
+  background-color: #011829;
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border-radius: 15px;
+}
+.inner img {
+  width: 60px;
+  padding-right: 2vw;
+  padding-bottom: 45px;
+}
+.card1 p {
+  margin-bottom: 10px;
+}
+.card-para {
+  width: 65%;
+}
+.card-para a {
+  color: #016dd9;
+  text-decoration: none;
+  transition: 0.2s all ease-in;
+  font-size: 1.5vw;
+}
+.card-para a:hover {
+  color: #ffffff;
+}
+.card2 {
+  background-color: #e7e7e7c5;
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border-radius: 15px;
+}
+.inner2 img {
+  width: 60px;
+  padding-right: 2vw;
+  padding-bottom: 70px;
+}
+.card2 p {
+  margin-bottom: 10px;
+  color: black;
+}
+.card-para2 {
+  width: 65%;
+}
+.card-para2 a {
+  color: #016dd9;
+  text-decoration: none;
+  transition: 0.2s all ease-in;
+  font-size: 1.5vw;
+}
+.card-para2 a:hover {
+  color: #000000;
+}
+.right {
+  height: 60vh;
+  width: 30%;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.right img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.right p {
+  position: absolute;
+  bottom: 6%;
+  left: 9%;
+  color: white;
+  font-size: 2vw;
+  width: 30%;
+  cursor: pointer;
+  transition: 0.2s all ease-in;
+}
+.right p:hover {
+  color: #016dd9;
+}
+.text {
+  width: 100%;
+  height: 100vh;
+}
+.text h3{
+   display: flex;
+   align-items: center;
+   font-size: 5vw;
+   position: relative;
+   left: 19%;
+   cursor: pointer;
+}
+.text h3 span{
+  color: #016dd9;
+}
+
+
+
+
+
+
+
+/* .text h3 {
+  font-size: 1.4vw;
+  font-weight: 100;
+  cursor: pointer;
+}
+.text h3{
+  text-decoration: none;
+  color: #000000;
+  position: relative;
+  overflow: hidden;
+}
+.text h3::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #000000;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-out;
+}
+.text h3:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+} */
